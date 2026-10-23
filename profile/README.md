@@ -1,10 +1,40 @@
-# 🤖 Open Droids
+# 🤖 Droid · formerly Open Droids
 
 <img src="https://github.com/Open-Droids-robot/.github/blob/0288ee99cef87920cae03fc10852bbca988aefd0/assets/open_droids_logo.jpg" alt="OpenDroids Logo" width="150"/>
 
 > **"Skillnet > Skynet"** — We believe that community-driven development can prevent closed, monopolistic AI systems and create a future where robotics serves humanity, not the other way around.
 
 Welcome to **OpenDroids**, where we're not just building robots—we're architecting the very foundation of tomorrow's automated world. We are a passionate collective of innovators, engineers, and visionaries dedicated to revolutionizing robotics through the transformative power of open-source collaboration.
+
+---
+
+## Start building with R2D3
+
+Droid, formerly Open Droids, publishes robotics software here. Visit [droid.org](https://droid.org/) for the current company and platform overview.
+
+For developers, [R2D3_ros2](https://github.com/Open-Droids-robot/R2D3_ros2) is the ROS 2 Jazzy workspace for the dual-arm mobile manipulator. Its maintained README starts with simulation and provides separate hardware instructions.
+
+| You want to… | Start here |
+|---|---|
+| Run the container-based simulation | [R2D3 README: quick start](https://github.com/Open-Droids-robot/R2D3_ros2#-quick-start-simulation-in-a-container) |
+| Understand container setup and platform requirements | [Container guide](https://github.com/Open-Droids-robot/R2D3_ros2/blob/main/docs/container.md) |
+| Use Gazebo Harmonic | [Gazebo quick start](https://github.com/Open-Droids-robot/R2D3_ros2/blob/main/simulation_quickstart_gz.md) |
+| Use MuJoCo | [MuJoCo quick start](https://github.com/Open-Droids-robot/R2D3_ros2/blob/main/simulation_quickstart_mujoco.md) |
+| Check usage and redistribution terms | [R2D3 Apache-2.0 license](https://github.com/Open-Droids-robot/R2D3_ros2/blob/main/LICENSE) |
+
+The repository documents this container entry point:
+
+```bash
+git clone https://github.com/Open-Droids-robot/R2D3_ros2.git
+cd R2D3_ros2
+./droid up
+```
+
+Read the current container guide for Docker and platform requirements. The README describes a CPU rendering fallback on machines without a supported GPU; performance depends on the host. For physical hardware, follow the repository's model-specific configuration and bring-up instructions.
+
+### Make a useful contribution
+
+Documentation fixes, reproducible simulation bug reports and focused code changes help other builders get started. Before opening an issue, check the repository's existing issues and instructions. Include the commit you tested, your OS/CPU, simulator, exact command, expected and observed behavior, and relevant logs with credentials or private data removed. Say whether the result came from simulation or physical hardware.
 
 ---
 
