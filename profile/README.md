@@ -34,6 +34,8 @@ Read the current container guide for Docker and platform requirements. The READM
 
 ### Make a useful contribution
 
+If R2D3 is useful to your work, [star the repository](https://github.com/Open-Droids-robot/R2D3_ros2) to find it again. Try the quick start, share reproducible findings, or contribute a focused fix.
+
 Documentation fixes, reproducible simulation bug reports and focused code changes help other builders get started. Before opening an issue, check the repository's existing issues and instructions. Include the commit you tested, your OS/CPU, simulator, exact command, expected and observed behavior, and relevant logs with credentials or private data removed. Say whether the result came from simulation or physical hardware.
 
 ---
